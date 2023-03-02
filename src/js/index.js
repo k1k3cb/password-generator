@@ -65,11 +65,10 @@ const generatePassword = () => {
 
 	// console.log(passwordLength);
 	// console.log('probando probando uno dos');
-// mejor que un for usar en for of
 
-for (const iterator of object) {
-	
-}
+
+// mejor que un for usar  for of
+
 	 for (let i = 0; i < passwordLength; i++) {
 			const position = Math.floor(Math.random() * strings.length);
 			password += strings[position];
