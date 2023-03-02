@@ -1,14 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- PON UN FAVICON!!! -->
-    <link rel="icon" type="image/svg+xml" href="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
-  </head>
-  <body>
-    <script type="module" src="./js/index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- PON UN FAVICON!!! -->
+  <link rel="icon" type="image/svg+xml" href="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;800&display=swap" rel="stylesheet">
+  <!-- CAMBIA EL TITLE!!! -->
+  <title>Password generator</title>
+</head>
+
+<body>
+
+  <div class="generator-container">
+    <div class="generator__result">
+      <input type="text" placeholder="P4$5W0rD!" class="generator__result-input" id="generator-result" readonly>
+
+    </div>
+    <div class="generator-body" >
+
+      <form class="generator-form" id="form" >
+
+        <label for="" class="generator__label">Character Length <span class="generator__label-span" id="span-lenght">0</span> </label>
+        <input type="range" name="range" id="range" min="0" max="20" step="1" value="0" class="generator__input-range">
+
+        <div class="generator__field-container">
+          <div class="generator__field">
+            <input type="checkbox" name="uppercase" id="uppercase">
+            <label for="uppercase">Include Uppercase Letters</label>
+          </div>
+
+          <div class="generator__field">
+            <input type="checkbox" name="lowercase" id="lowercase">
+            <label for="lowercase">Include Lowercase Letters</label>
+          </div>
+
+          <div class="generator__field">
+            <input type="checkbox" name="numbers" id="numbers">
+            <label for="numbers">Include Numbers</label>
+          </div>
+
+          <div class="generator__field">
+            <input type="checkbox" name="symbols" id="symbols">
+            <label for="symbols">Include Symbols</label>
+          </div>
+
+        </div>
+
+        <div class="generator__strenght">
+
+          <span class="generator__strenght-title">STRENGTH</span>
+          <span id="strength-value" class="generator__strenght-value">TOO SHORT</span>
+
+        </div>
+
+        <button class="generator__button" id="generator-button">Generate <span><img src="assets/images/icon-arrow-right.svg"
+              alt="arrow"></span> </button>
+
+
+      </form>
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+  <script type="module" src="./js/index.js"></script>
+</body>
+
 </html>
