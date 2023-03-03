@@ -1,9 +1,9 @@
-# Título del proyecto
+# Password Generator
 
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
+![Imagen del proyecto](https://raw.githubusercontent.com/k1k3cb/password-generator/main/src/assets/images/project_captures/captura-password-generator.jpg)
 
 ## Ejemplo en vivo
-
+ 
 
 - [Enlace al proyecto](https://password-generator-2koc.onrender.com/)
 
@@ -14,7 +14,7 @@ Este proyecto consiste en el desarrollo de una aplicación web para generar cont
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+Mendiante este proyecto en JS he aprendido la lógica para poder generar  una contraseña de forma aleatoria a través de la selección de distintos tipos de inputs.
 
 ## Tecnologías 🛠
 
@@ -28,23 +28,31 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, 
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
-![Captura del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/CAPTURA-DEL-PROYECTO.jpg?raw=true)
+![Captura del proyecto](https://raw.githubusercontent.com/k1k3cb/password-generator/main/src/assets/images/project_captures/captura-password-generator-weak.jpg)
+
+![Captura del proyecto](https://raw.githubusercontent.com/k1k3cb/password-generator/main/src/assets/images/project_captures/captura-password-generator-strenght.jpg)
 
 ## Autor ✒️
 
-**TU NOMBRE**
+**ENRIQUE COMESAÑA**
 
-- [micorreo@midominio.com](micorreo@midominio.com)
-- [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
-- [Porfolio web](https://tu-dominio.com/)
+  [![GMAIL](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](enriquecbar@gmail.com)
+
+<!-- - [enriquecbar@gmail.com](enriquecbar@gmail.com) -->
+- [LinkedIn](https://www.linkedin.com/in/enrique-comesa%c3%b1a-312500268/)
+- [Porfolio web](https://portfolio-ep5h.onrender.com/)
 
 ## Instalación
 
-Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz doble click en el .html
+Este proyecto para su instalación necesitas usar los siguientes comandos:
+
+-npm install <br>
+-npm run dev<br>
+-npm run build???
+
+Si solamente quieres verlo debes usar el comando *npm preview*
 
 ## Licencia 📄
 
 MIT Public License v3.0
-No puede usarse comencialmente.
+No puede usarse comercialmente.
