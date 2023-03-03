@@ -48,9 +48,9 @@ Este proyecto para su instalación necesitas usar los siguientes comandos:
 
 -npm install <br>
 -npm run dev<br>
--npm run build???
 
-Si solamente quieres verlo debes usar el comando *npm preview*
+
+Si solamente quieres verlo debes usar el comando *npm run preview*
 
 ## Licencia 📄
 
